@@ -22,8 +22,6 @@ tap.test('deploy existing app', function(t) {
 
   debug('onDeploy:', onDeploy);
 
-  t.plan(5);
-
   local(localDir, function(req, res, client) {
     debug('got local deploy');
 
@@ -34,5 +32,6 @@ tap.test('deploy existing app', function(t) {
     onDeploy.handle(req, res);
   }).once('response', function(data) {
     t.equal(data, 'Application deployed\n', 'response');
+    t.end();
   });
 });
