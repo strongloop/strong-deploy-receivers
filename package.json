@@ -13,7 +13,7 @@
     "url": "git+https://github.com/strongloop/strong-deploy-receivers.git"
   },
   "author": "Krishna Raman <kraman@strongloop.com>",
-  "license": "Artistic-2.0 OR LicenseRef-LICENSE.md",
+  "license": "Artistic-2.0",
   "bugs": {
     "url": "https://github.com/strongloop/strong-deploy-receivers/issues"
   },
