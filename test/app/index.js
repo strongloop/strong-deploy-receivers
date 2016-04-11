@@ -16,8 +16,8 @@ if (!env.SL_PM_VAGRANT) {
 }
 assert.equal(fs.realpathSync(env.PWD), process.cwd());
 
-http.createServer(onRequest)
-    .listen(process.env.PORT || 0, function() {
+var PORT = process.env.PORT || 0;
+http.createServer(onRequest) .listen(PORT, function() {
   console.log('pid %d listening on %s', process.pid, this.address().port);
 
   // Used to verify process existence/health
