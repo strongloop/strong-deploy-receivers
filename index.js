@@ -1,3 +1,8 @@
+// Copyright IBM Corp. 2015. All Rights Reserved.
+// Node module: strong-deploy-receivers
+// This file is licensed under the Artistic License 2.0.
+// License text available at https://opensource.org/licenses/Artistic-2.0
+
 var EventEmitter = require('events').EventEmitter;
 var cicada = require('strong-fork-cicada');
 var cicadaCommit = require('strong-fork-cicada/lib/commit');
