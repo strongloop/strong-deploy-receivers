@@ -3,6 +3,8 @@
 // This file is licensed under the Artistic License 2.0.
 // License text available at https://opensource.org/licenses/Artistic-2.0
 
+'use strict';
+
 var EventEmitter = require('events').EventEmitter;
 var cicada = require('strong-fork-cicada');
 var cicadaCommit = require('strong-fork-cicada/lib/commit');
